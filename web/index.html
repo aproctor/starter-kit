@@ -11,12 +11,18 @@
 		<!-- Styles -->
 		<link rel="stylesheet" href="http://cdn.kik.com/app/1/default.css">
 		<link rel="stylesheet" href="/css/styles.css">
+		<script>
+			var gotoMM = function() {
+				var url = "http://m.staging.elementals.com/?udid=kik123";
+				window.location.href = url;
+			};
+		</script>
 	</head>
 
 	<body>
 		<!-- Pages -->
 
-		<a href="http://m.staging.elementals.com/?udid=kik123">MM Staging</a>
+		<a href="#" onclick="gotoMM(); return false;">MM Staging</a>
 
 		<!-- Scripts -->
 		<script src="/zerver/API.js"></script>
